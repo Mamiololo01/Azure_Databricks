@@ -16,6 +16,8 @@ This project involves:
 
 The architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
 
+![Data Architecture](images/Azure_databricks.png)
+
 
 
 
