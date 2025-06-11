@@ -20,11 +20,20 @@ The architecture for this project follows Medallion Architecture **Bronze**, **S
 
 
 
-
 ## Resources
 1. **Free Azure Account**: https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account
-2. **Azure Data Factory**: https://azure.microsoft.com/en-us/products/data-factory#Resources-6
-3. **Delta live table**: https://www.databricks.com/discover/pages/getting-started-with-delta-live-tables
-4. **Slowly changing dimensions**: https://learn.microsoft.com/en-us/fabric/data-factory/slowly-changing-dimension-type-one
-5. **Unity Catalog**: https://learn.microsoft.com/en-us/azure/databricks/data-governance/unity-catalog/
+2. **Azure Resource Group**: https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal
+3. **Azure Data Factory**: https://azure.microsoft.com/en-us/products/data-factory#Resources-6
+4. **Delta live table**: https://www.databricks.com/discover/pages/getting-started-with-delta-live-tables
+5. **Slowly changing dimensions**: https://learn.microsoft.com/en-us/fabric/data-factory/slowly-changing-dimension-type-one
+6. **Unity Catalog**: https://learn.microsoft.com/en-us/azure/databricks/data-governance/unity-catalog/
+7. **Azure Data Lake Storage**: https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-best-practices
+8. **Azure Databricks**: https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account?icid=databricks
+
+
+## Workflow
+
+The end to end workflow from data ingestion to all layers **Bronze**, **Silver**, and **Gold** is depicted below:
+
+![Workflow](images/E2E_pipeline_workflow.png)
 
